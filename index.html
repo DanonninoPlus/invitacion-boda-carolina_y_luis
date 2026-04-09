@@ -462,21 +462,30 @@
 </h2>
 <div class="mt-16 mb-6">
 <p class="font-label text-xs uppercase tracking-[0.3em] opacity-80 mb-6">FALTAN</p>
+
 <div class="flex justify-center items-center gap-4 md:gap-8 font-headline text-4xl md:text-7xl">
-<div class="flex flex-col">
-<span>00</span>
-<span class="font-label text-[10px] md:text-xs tracking-widest mt-2">DÍAS</span>
-</div>
+    <div class="flex flex-col">
+        <span id="days">00</span>
+        <span class="font-label text-[10px] md:text-xs tracking-widest mt-2">DÍAS</span>
+    </div>
+
 <span class="pb-6">:</span>
-<div class="flex flex-col">
-<span>00</span>
-<span class="font-label text-[10px] md:text-xs tracking-widest mt-2">HORAS</span>
-</div>
+        <div class="flex flex-col">
+        <span id="hours">00</span>
+        <span class="font-label text-[10px] md:text-xs tracking-widest mt-2">HORAS</span>
+    </div>
+
 <span class="pb-6">:</span>
-<div class="flex flex-col">
-<span>00</span>
-<span class="font-label text-[10px] md:text-xs tracking-widest mt-2">SEGUNDOS</span>
-</div>
+    <div class="flex flex-col">
+        <span id="minutes">00</span>
+        <span class="font-label text-[10px] md:text-xs tracking-widest mt-2">MINUTOS</span>
+    </div>
+
+<span class="pb-6">:</span>
+    <div class="flex flex-col">
+        <span id="seconds">00</span>
+        <span class="font-label text-[10px] md:text-xs tracking-widest mt-2">SEGUNDOS</span>
+    </div>
 </div>
 </div>
 </div>
@@ -492,6 +501,12 @@
         C &amp; L • CON AMOR • 2026
     </div>
 </footer>
+        
+<!-- Conectar con el JAVA-->
+
+<script src="script.js"></script>
+
+        
 <!-- Mobile Bottom Navigation -->
 <nav class="md:hidden fixed bottom-0 left-0 w-full flex justify-around items-center pb-8 pt-4 bg-stone-50/90 dark:bg-stone-900/90 backdrop-blur-md z-50 border-t border-stone-200/50">
 <a class="flex flex-col items-center justify-center text-stone-500 scale-95 active:scale-90 transition-all" href="#historia">
