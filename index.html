@@ -199,70 +199,91 @@
 </div>
 </div>
 </section>
-<!-- Program Section (Timeline) -->
-<section class="py-24 md:py-32 px-6 bg-surface" id="programa">
-<div class="max-w-4xl mx-auto">
-<div class="text-center mb-16 reveal">
+
+
+        <!-- Program Section (Timeline) -->
+<section class="py-24 md:py-32 px-6 bg-surface" id="program">
+<div class="max-w-4xl mx-auto"><div class="text-center mb-16 reveal">
 <h2 class="font-headline text-4xl md:text-6xl text-primary mb-4">Nuestra Celebración</h2>
 <div class="h-1 w-12 bg-secondary/30 mx-auto"></div>
 </div>
-<div class="relative timeline-line space-y-12">
-<!-- Event 1 -->
-<div class="flex flex-col md:flex-row items-center gap-8 relative z-10 reveal">
-<div class="md:w-1/2 md:text-right order-2 md:order-1">
+<div class="relative">
+<!-- Vertical Line centered -->
+<div class="absolute left-1/2 transform -translate-x-1/2 w-px h-full bg-outline-variant z-0"></div>
+<div class="space-y-16">
+<!-- Event 1: Ceremonia -->
+<div class="relative flex items-center justify-center reveal">
+<div class="w-1/2 pr-8 text-right hidden md:block">
 <h4 class="font-headline text-2xl text-on-surface">Ceremonia y Recepción</h4>
-    <!-- <p class="text-on-surface-variant">Intercambio de votos bajo los cipreses.</p> -->
+                <!-- DESCRIPCIÓN <p class="text-on-surface-variant text-sm">Intercambio de votos bajo los cipreses.</p> -->
 </div>
-<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary order-1 md:order-2 shadow-lg">
+<div class="z-10 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-lg border-4 border-background">
 <span class="material-symbols-outlined text-xl" data-icon="church">church</span>
 </div>
-<div class="md:w-1/2 order-3">
-<span class="font-label text-secondary tracking-widest font-bold">1:45 PM</span>
+<div class="w-1/2 pl-8 text-left">
+<div class="md:hidden mb-1">
+<h4 class="font-headline text-xl text-on-surface">Ceremonia y Recepción</h4>
+</div>
+<span class="font-label text-secondary tracking-widest font-bold block mb-1">1:45 PM</span>
+                <!-- DESCRIPCIÓN <p class="text-on-surface-variant text-sm md:hidden">Intercambio de votos bajo los cipreses.</p> -->
 </div>
 </div>
-<!-- Event 2 -->
-<div class="flex flex-col md:flex-row items-center gap-8 relative z-10 reveal">
-<div class="md:w-1/2 md:text-right order-2 md:order-1 md:opacity-100 opacity-0 hidden md:block">
-<!-- Spacer -->
+<!-- Event 2: Cóctel -->
+<div class="relative flex items-center justify-center reveal">
+<div class="w-1/2 pr-8 text-right">
+<div class="md:hidden mb-1">
+<h4 class="font-headline text-xl text-on-surface">Cóctel</h4>
 </div>
-<div class="w-12 h-12 rounded-full bg-tertiary-container flex items-center justify-center text-tertiary order-1 md:order-2 shadow-lg">
+<span class="font-label text-secondary tracking-widest font-bold block mb-1">3:00 PM</span>
+                <!-- DESCRIPCIÓN  <p class="text-on-surface-variant text-sm md:hidden">Música en vivo y aperitivos al atardecer.</p> -->
+</div>
+<div class="z-10 w-12 h-12 rounded-full bg-tertiary-container flex items-center justify-center text-tertiary shadow-lg border-4 border-background">
 <span class="material-symbols-outlined text-xl" data-icon="local_bar">local_bar</span>
 </div>
-<div class="md:w-1/2 order-3">
+<div class="w-1/2 pl-8 text-left hidden md:block">
 <h4 class="font-headline text-2xl text-on-surface">Cóctel</h4>
-<span class="font-label text-secondary tracking-widest font-bold block mb-1">3:00 PM</span>
-    <!-- <p class="text-on-surface-variant">Música en vivo y aperitivos al atardecer.</p> -->
+                <!-- DESCRIPCIÓN  <p class="text-on-surface-variant text-sm">Música en vivo y aperitivos al atardecer.</p> -->
 </div>
 </div>
-<!-- Event 3 -->
-<div class="flex flex-col md:flex-row items-center gap-8 relative z-10 reveal">
-<div class="md:w-1/2 md:text-right order-2 md:order-1">
+<!-- Event 3: Cena -->
+<div class="relative flex items-center justify-center reveal">
+<div class="w-1/2 pr-8 text-right hidden md:block">
 <h4 class="font-headline text-2xl text-on-surface">Comida</h4>
-    <!-- <p class="text-on-surface-variant">Banquete tradicional en los jardines de la Villa.</p> -->
+                <!-- DESCRIPCIÓN  <p class="text-on-surface-variant text-sm">Banquete tradicional en los jardines de la Villa.</p> -->
 </div>
-<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-primary order-1 md:order-2 shadow-lg">
+<div class="z-10 w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-primary shadow-lg border-4 border-background">
 <span class="material-symbols-outlined text-xl" data-icon="restaurant">restaurant</span>
 </div>
-<div class="md:w-1/2 order-3">
-<span class="font-label text-secondary tracking-widest font-bold">4:00 PM</span>
+<div class="w-1/2 pl-8 text-left">
+<div class="md:hidden mb-1">
+<h4 class="font-headline text-xl text-on-surface">Comida</h4>
+</div>
+<span class="font-label text-secondary tracking-widest font-bold block mb-1">4:00 PM</span>
+                <!-- DESCRIPCIÓN  <p class="text-on-surface-variant text-sm md:hidden">Banquete tradicional en los jardines de la Villa.</p> -->
 </div>
 </div>
-<!-- Event 4 -->
-<div class="flex flex-col md:flex-row items-center gap-8 relative z-10 reveal">
-<div class="md:w-1/2 md:text-right order-2 md:order-1 hidden md:block">
+<!-- Event 4: Fiesta -->
+<div class="relative flex items-center justify-center reveal">
+<div class="w-1/2 pr-8 text-right">
+<div class="md:hidden mb-1">
+<h4 class="font-headline text-xl text-on-surface">Fiesta</h4>
 </div>
-<div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-on-secondary order-1 md:order-2 shadow-lg">
+<span class="font-label text-secondary tracking-widest font-bold block mb-1">5:00 PM</span>
+<p class="text-on-surface-variant text-sm md:hidden">Baile y celebración hasta el amanecer.</p>
+</div>
+<div class="z-10 w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-on-secondary shadow-lg border-4 border-background">
 <span class="material-symbols-outlined text-xl" data-icon="celebration">celebration</span>
 </div>
-<div class="md:w-1/2 order-3">
+<div class="w-1/2 pl-8 text-left hidden md:block">
 <h4 class="font-headline text-2xl text-on-surface">Fiesta</h4>
-<span class="font-label text-secondary tracking-widest font-bold block mb-1">5:00 PM</span>
-<p class="text-on-surface-variant">Baile y celebración.</p>
+<p class="text-on-surface-variant text-sm">Baile y celebración hasta el amanecer.</p>
 </div>
 </div>
 </div>
-</div>
+</div></div>
 </section>
+
+        
 <!-- Event Details Section -->
 <section class="py-24 md:py-40 px-6" id="eventos">
 <div class="max-w-6xl mx-auto">
